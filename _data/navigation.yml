@@ -1,11 +1,12 @@
-main:
-  - title: Blog
-    url: /
-  - title: About
-    url: /about/
-  - title: c
-    url: /c/
-  - title: python
-    url:  /python/
-  - title: git
-    url:  /git/
+
+- title: Blog
+  url: /
+- title: About
+  url: /about/
+- title: c
+  url: /c/
+- title: python
+  url:  /python/
+- title: git
+  url:  /git/
+  category: git
