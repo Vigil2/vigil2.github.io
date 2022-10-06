@@ -1,7 +1,9 @@
 ---
 title: "git"
 permalink: /git/
-nav: "main"
+toc: true
+toc_sticky: true
+toc_label: "MYSELF"
 ---
 
 
