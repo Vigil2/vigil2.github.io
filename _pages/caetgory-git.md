@@ -1,8 +1,7 @@
 ---
-title: "python"
-permalink: /python/
-sidebar:
-    nav: "sidebar-category"
+title: "git"
+permalink: /git/
+nav: "main"
 ---
 
 
