@@ -2,3 +2,9 @@
   url: /
 - title: About
   url: /about/
+- title: "c"
+  url: "/c/"
+- title: "python"
+  url:  "/python/"
+- title: "git"
+  url:  "/git/"
