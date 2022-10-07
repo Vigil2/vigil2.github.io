@@ -5,8 +5,4 @@
   url: /about/
 - title: categories
   url: /categories/
-- title: python
-  url:  /python/
-- title: git
-  categories: git
-  url:  /git/
+
