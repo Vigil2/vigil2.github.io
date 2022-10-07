@@ -8,4 +8,5 @@
 - title: python
   url:  /python/
 - title: git
-  url:  /categories/git/
+  categories: git
+  url:  /git/
