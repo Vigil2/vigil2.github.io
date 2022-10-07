@@ -1,11 +1,11 @@
 # Setup
-title: Not Pure Poole
-description: A simple, beautiful, and powerful Jekyll theme for blogs
-url: https://vszhub.github.io
-avatar: /avatar.jpeg
+title: Hi
+description: Dev gen
+url: https://vigil2.github.io
+avatar: /assets/vigil_icon.png
 paginate: 5
 permalink: pretty
-cover_image: /bg.jpeg
+cover_image: /assets/kindred.jpg
 
 # Gems
 plugins:
