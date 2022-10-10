@@ -33,7 +33,7 @@ twitter:
   card: summary
 logo: logo.png
 social:
-  name: Vigil2
+  name: vigil2
   links:
     - https://twitter.com/vszhub
     - https://github.com/vigil2
@@ -50,10 +50,11 @@ sass:
 # google_analytics: UA-000000-0
 
 # Replace this value and uncomment to enable Disqus
-disqus: vigil2_blog
+disqus: 
+  shortname: vigil2_blog
 
 # Specify the author for blog posts
 author:
-  name: Vigil2
+  name: vigil2
   url: https://github.com/vigil2/
   email: l2nak87@gmail.com
