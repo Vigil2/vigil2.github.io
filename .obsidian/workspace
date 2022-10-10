@@ -7,8 +7,12 @@
         "id": "08c8f9958ea4ab2a",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "_posts/Python/2022-10-10-python.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_posts/Python/2022-10-10-python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_posts/Python/2022-10-10-python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_posts/Python/2022-10-10-python.md"
+              }
             }
           }
         ]
@@ -122,6 +130,7 @@
   },
   "active": "08c8f9958ea4ab2a",
   "lastOpenFiles": [
+    "_posts/private/2022-10-10-securelog.md",
     "무제노트.md",
     "무제노트 1.md",
     "_posts/Python/2022-10-10-python.md",
