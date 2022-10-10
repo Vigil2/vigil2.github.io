@@ -7,8 +7,12 @@
         "id": "ee50fee3d22fe6e6",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "_posts/Python/2022-10-10-python.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_posts/Python/2022-10-10-python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_posts/Python/2022-10-10-python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_posts/Python/2022-10-10-python.md"
+              }
             }
           }
         ]
@@ -122,8 +130,9 @@
   },
   "active": "ee50fee3d22fe6e6",
   "lastOpenFiles": [
-    "_posts/git/2022-09-20-git.md",
     "_posts/2020-09-29-welcome-to-not-pure-poole.md",
+    "_posts/Python/2022-10-10-python.md",
+    "_posts/git/2022-09-20-git.md",
     "_posts/2020-10-02-testing-mathjax.md",
     "_posts/2020-10-01-releasing-not-pure-poole-v0-1-0.md"
   ]
