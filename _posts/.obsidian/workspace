@@ -1,33 +1,29 @@
 {
   "main": {
-    "id": "15b3ba67d70e2ded",
+    "id": "d33ff300160549fc",
     "type": "split",
     "children": [
       {
-        "id": "135b93f9914f6096",
+        "id": "1fbfdb1add700974",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "_posts/private/2022-10-10-private.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "3d9868567b6959bb",
+    "id": "a0cdf66ec51309d7",
     "type": "split",
     "children": [
       {
-        "id": "62031746fc07e685",
+        "id": "5a6ba2db67e766b5",
         "type": "tabs",
         "children": [
           {
-            "id": "859365dfe97564d3",
+            "id": "c9d8bb63016f9418",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +31,7 @@
             }
           },
           {
-            "id": "79654736f38f56a8",
+            "id": "84b04c0f69159f5f",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -50,7 +46,7 @@
             }
           },
           {
-            "id": "a206d12eca9d4f2e",
+            "id": "6866095677f8e6c9",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -64,20 +60,19 @@
     "width": 300
   },
   "right": {
-    "id": "d5808e74d2adadf3",
+    "id": "cab3e225cbf2503d",
     "type": "split",
     "children": [
       {
-        "id": "fd0773342c65a1f5",
+        "id": "29e1a07746cc1501",
         "type": "tabs",
         "children": [
           {
-            "id": "e631f4c92725daf7",
+            "id": "2b9a3123fd07fd4d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/private/2022-10-10-private.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,19 +84,18 @@
             }
           },
           {
-            "id": "cd9c0c1db297ac8a",
+            "id": "41142fcd0d064cfa",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/private/2022-10-10-private.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "9c65e4dfe107e5d3",
+            "id": "2a5df1e316738201",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -112,13 +106,11 @@
             }
           },
           {
-            "id": "310188f196637aaf",
+            "id": "658662783adc7cfc",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_posts/private/2022-10-10-private.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -128,15 +120,6 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "135b93f9914f6096",
-  "lastOpenFiles": [
-    "_posts/Python/2022-10-10-python.md",
-    "_posts/private/2022-10-10-securelog.md",
-    "무제노트.md",
-    "무제노트 1.md",
-    "_posts/2020-09-29-welcome-to-not-pure-poole.md",
-    "_posts/git/2022-09-20-git.md",
-    "_posts/2020-10-02-testing-mathjax.md",
-    "_posts/2020-10-01-releasing-not-pure-poole-v0-1-0.md"
-  ]
+  "active": "1fbfdb1add700974",
+  "lastOpenFiles": []
 }
