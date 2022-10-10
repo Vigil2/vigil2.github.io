@@ -50,7 +50,7 @@ sass:
 # google_analytics: UA-000000-0
 
 # Replace this value and uncomment to enable Disqus
-# disqus: xxxxxx
+disqus: vigil2_blog
 
 # Specify the author for blog posts
 author:
