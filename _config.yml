@@ -35,7 +35,7 @@ logo: logo.png
 social:
   name: vigil2
   links:
-    - https://twitter.com/vszhub
+    # - https://twitter.com/vigil2
     - https://github.com/vigil2
 # google_site_verification: i_YYjfSn-7CNjUxxWWRM3lb50toQt6rY1vesEf_jmkI
 lang: ko
