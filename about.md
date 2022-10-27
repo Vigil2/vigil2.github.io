@@ -8,7 +8,7 @@ title: About
 
 ## 1. Goals as a developer : I would like to participate in the development to prove this theory.
 
-## 2. My hypothesis on the ai algorithm : In this way, all human words and actions result in "self-satisfied"
+## 2. My hypothesis on the ai algorithm : All human words and actions result in "self-satisfied".
 
 
 <br>
