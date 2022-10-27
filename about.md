@@ -6,16 +6,16 @@ title: About
 [Github](https://github.com/vigil2)
 
 
-## Goals as a developer : I would like to participate in the development to prove this theory.
+## 1. Goals as a developer : I would like to participate in the development to prove this theory.
+
+## 2. My hypothesis on the ai algorithm : In this way, all human words and actions result in "self-satisfied"
+
+
 <br>
 
-### my hypotheses : In this way, all human words and actions result in "self-satisfied"
-<br>
-
-### Around 2021-2022, I suddenly realized something.
-
-### In order to create an artificial intelligence that behaves and speaks exactly like a human, at the end of the algorithm, 'Are you self-satisfied?' as a conditional statement.
-### Then all rational and irrational behaviors of human beings can be explained.
+Around 2021-2022, I suddenly realized something.
+In order to create an artificial intelligence that behaves and speaks exactly like a human, at the end of the algorithm, 'Are you self-satisfied?' as a conditional statement.
+Then all rational and irrational behaviors of human beings can be explained.
 
 <br>
 
@@ -38,8 +38,8 @@ title: About
 
 <br>
 
-### In this way, all human words and actions result in "self-satisfied".
-### This is the conclusion of my hypothesis. If you want to create an artificial intelligence just like a human, you must pass “Are you satisfied with yourself?” at the end of the AI code.
+In this way, all human words and actions result in "self-satisfied".
+This is the conclusion of my hypothesis. If you want to create an artificial intelligence just like a human, you must pass “Are you satisfied with yourself?” at the end of the AI code.
 
 <br>
 
