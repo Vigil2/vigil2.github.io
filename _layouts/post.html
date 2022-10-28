@@ -25,7 +25,6 @@ layout: default
     {%- endif -%}
   </div>
   
-  <script src="/assets/scripts/copyCode.js"></script>
 
   {{ content }}
   
@@ -39,6 +38,7 @@ layout: default
   {% if jekyll.environment == "production" and site.disqus and page.comments != false %}
     {% include disqus.html %}
   {% endif %}
+  <script src="/assets/scripts/copyCode.js"></script>
 </article>
 
 
@@ -60,5 +60,5 @@ layout: default
 </aside>
 {% endif %}
 
-<script src="/assets/scripts/copyCode.js"></script>
+
 
