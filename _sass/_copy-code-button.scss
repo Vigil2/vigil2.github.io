@@ -1,6 +1,6 @@
-// .copy-code-button {
-//     display: block;
-//   }
+.copy-code-button {
+    display: block;
+  }
 
 .copy-code-button {
     color: #272822;
@@ -19,10 +19,10 @@
     font-size: 0.8em;
 }
 
-.copy-code-button:hover {
-    cursor: pointer;
-    background-color: #F2F2F2;
-}
+// .copy-code-button:hover {
+//     cursor: pointer;
+//     background-color: #F2F2F2;
+// }
 
 .copy-code-button:focus {
     /* Avoid an ugly focus outline on click in Chrome,
