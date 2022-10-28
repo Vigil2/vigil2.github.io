@@ -6,7 +6,9 @@ title: About
 [Github](https://github.com/vigil2)
 
 
-Bitcoin deposit address : {% include codeHeader.html %}
+
+{% include codeHeader.html %}
+Bitcoin deposit address :
 ```html
 3EVLRQxZ1LnsUkVei9993TfdEEkV4kqauT
 ```
