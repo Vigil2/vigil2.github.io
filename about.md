@@ -5,17 +5,17 @@ title: About
 [Email](mailto:l2nak87@gmail.com)  
 [Github](https://github.com/vigil2)  
 
-{% include codeHeader.html %}
+
   ```python
   Bitcoin deposit address
-  3EVLRQxZ1LnsUkVei9993TfdEEkV4kqauT 
+  3EVLRQxZ1LnsUkVei9993TfdEEkV4kqauT
   ```
-<script src="/assets/scripts/copyCode.js">
+
   ```python
   Dodgecoin deposit address :
   DP5KEZ4X938reGq8YqE5TxV9CmWGmt7HMp
   ```
-</script>
+
 
 
 
