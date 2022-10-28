@@ -13,11 +13,11 @@ title: About
   ```
 
 Dodgecoin deposit address :
+{% include codeHeader.html %}
   ```html
   DP5KEZ4X938reGq8YqE5TxV9CmWGmt7HMp
   ```
-<code>
-</code>
+
 
 
 
