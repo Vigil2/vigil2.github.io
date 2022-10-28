@@ -5,13 +5,16 @@ title: About
 [Email](mailto:l2nak87@gmail.com)  
 [Github](https://github.com/vigil2)
 
+---
 
-
-{% include codeHeader.html %}
 Bitcoin deposit address :
+{% include codeHeader.html %}
 ```html
 3EVLRQxZ1LnsUkVei9993TfdEEkV4kqauT
 ```
+
+<br>
+
 
 Dodgecoin deposit address :
 {% include codeHeader.html %}
@@ -19,6 +22,9 @@ Dodgecoin deposit address :
 DP5KEZ4X938reGq8YqE5TxV9CmWGmt7HMp
 ```
 
+<br>
+<br>
+---
 
 
 
