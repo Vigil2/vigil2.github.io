@@ -6,13 +6,13 @@ title: About
 [Github](https://github.com/vigil2)  
 
 
+ Bitcoin deposit address
   ```python
-  Bitcoin deposit address
   3EVLRQxZ1LnsUkVei9993TfdEEkV4kqauT
   ```
 
+Dodgecoin deposit address :
   ```python
-  Dodgecoin deposit address :
   DP5KEZ4X938reGq8YqE5TxV9CmWGmt7HMp
   ```
 
