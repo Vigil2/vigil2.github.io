@@ -28,20 +28,19 @@ layout: default
 
   {{ content }}
 
-  <a href="https://www.buymeacoffee.com/vigil2" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/arial-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
   
   {% if page.tags %}
     {% include post-tags.html %}
   {% endif %}
+
+  {% include buymeacoffee.html %}
+
 
   {% if jekyll.environment == "production" and site.disqus and page.comments != false %}
     {% include disqus.html %}
   {% endif %}
 </article>
 
-<script src="/assets/scripts/copyCode.js">
-
-</script>
 
 
 
