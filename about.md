@@ -25,7 +25,7 @@ DP5KEZ4X938reGq8YqE5TxV9CmWGmt7HMp
 
 ## 1. Goals as a developer : I would like to participate in the development to prove this theory.
 
-## 2. My hypothesis on the ai algorithm : All human words and actions result in "self-satisfied".
+## 2. My hypothesis on the ai algorithm : All humans are selfish. Altruistic behavior is also done because humans are selfish.
 
 
 <br>
