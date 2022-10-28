@@ -5,8 +5,9 @@ title: About
 [Email](mailto:l2nak87@gmail.com)  
 [Github](https://github.com/vigil2)  
 Bitcoin deposit address : <a>3EVLRQxZ1LnsUkVei9993TfdEEkV4kqauT</a>
-Dodgecoin deposit address : DP5KEZ4X938reGq8YqE5TxV9CmWGmt7HMp
-<a href="javascript:;" onclick="copyLink('yourlink.com');">3EVLRQxZ1LnsUkVei9993TfdEEkV4kqauT</a>
+Dodgecoin deposit address : 
+DP5KEZ4X938reGq8YqE5TxV9CmWGmt7HMp
+
 
 
 
