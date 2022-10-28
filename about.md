@@ -2,6 +2,8 @@
 layout: page
 title: About
 ---
+
+## Goals as a developer : I would like to participate in the development to prove this theory.
 [Email](mailto:l2nak87@gmail.com)  
 [Github](https://github.com/vigil2)
 
@@ -23,9 +25,7 @@ DP5KEZ4X938reGq8YqE5TxV9CmWGmt7HMp
 
 
 
-## 1. Goals as a developer : I would like to participate in the development to prove this theory.
-
-## 2. My hypothesis on the ai algorithm : All humans are selfish. Altruistic behavior is also done because humans are selfish.
+## My hypothesis for artificial intelligence to have the same algorithms as humans : All humans are selfish. Altruistic behavior is also done because humans are selfish.
 
 
 <br>
