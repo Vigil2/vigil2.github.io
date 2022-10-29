@@ -2,9 +2,57 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
-      <loc>http://localhost:4000/python/2022/10/11/python/</loc>
+      <loc>http://localhost:4000/ai_algorism/2022/10/28/AI/</loc>
       
-        <lastmod>2022-10-11T00:00:00+09:00</lastmod>
+        <lastmod>2022-10-28T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/vscode/2022/10/23/vscode/</loc>
+      
+        <lastmod>2022-10-23T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/vscode/2022/10/19/vscode/</loc>
+      
+        <lastmod>2022-10-19T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/dev_sequence/2022/10/13/dev_sequence/</loc>
+      
+        <lastmod>2022-10-13T00:00:00+09:00</lastmod>
       
 
       

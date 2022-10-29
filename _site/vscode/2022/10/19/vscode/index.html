@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="ko">
+
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/grids-responsive-min.css">
+  <link rel="stylesheet" href="/assets/styles.css"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>vscode에서 terminal 과 editor로 focus 변경 단축키 | vigil2</title>
+<meta name="generator" content="Jekyll v3.9.2" />
+<meta property="og:title" content="vscode에서 terminal 과 editor로 focus 변경 단축키" />
+<meta name="author" content="vigil2" />
+<meta property="og:locale" content="ko" />
+<meta name="description" content="Dev Log" />
+<meta property="og:description" content="Dev Log" />
+<link rel="canonical" href="http://localhost:4000/vscode/2022/10/19/vscode/" />
+<meta property="og:url" content="http://localhost:4000/vscode/2022/10/19/vscode/" />
+<meta property="og:site_name" content="vigil2" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-10-19T00:00:00+09:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="vscode에서 terminal 과 editor로 focus 변경 단축키" />
+<meta name="twitter:site" content="@vigil2" />
+<meta name="twitter:creator" content="@vigil2" />
+<meta name="google-site-verification" content="i_YYjfSn-7CNjUxxWWRM3lb50toQt6rY1vesEf_jmkI" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"vigil2","url":"https://github.com/vigil2/"},"dateModified":"2022-10-19T00:00:00+09:00","datePublished":"2022-10-19T00:00:00+09:00","description":"Dev Log","headline":"vscode에서 terminal 과 editor로 focus 변경 단축키","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/vscode/2022/10/19/vscode/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/logo.png"},"name":"vigil2"},"url":"http://localhost:4000/vscode/2022/10/19/vscode/"}</script>
+<!-- End Jekyll SEO tag -->
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="vigil2" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/logo.ico/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/logo.ico/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/logo.ico/favicon-16x16.png">
+<link rel="manifest" href="/assets/logo.ico/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+</head>
+
+
+  <body>
+
+    <div class="container pure-g"><div class="sidebar-left pure-u-1 pure-u-md-1-4" style="background-color: rgb(40, 73, 77); color: rgb(255, 255, 255); background-image: url(/assets/kindred.jpg);"><header class="masthead">
+  <div class="avatar"><img src="/assets/vigil_icon.png" class="avatar-image" alt="vigil2">
+    </div>
+  <div class="masthead-title">
+    <a href="/" title="Home">vigil2</a>
+  </div>
+  <div class="masthead-tagline">
+    <small>Dev Log</small>
+  </div><nav class="navigation">
+    <ul class="navigation-list"><li class="navigation-item">
+        <a onclick="sessionStorage.setItem('forceCheckScroll', 'true')" href="/">Blog</a>
+      </li><li class="navigation-item">
+        <a onclick="sessionStorage.setItem('forceCheckScroll', 'true')" href="/about/">About</a>
+      </li><li class="navigation-item">
+        <a onclick="sessionStorage.setItem('forceCheckScroll', 'true')" href="/categories/">Categories</a>
+      </li></ul>
+  </nav><div class="social pure-menu pure-menu-horizontal">
+      <ul class="social-icons pure-menu-list">
+      <li class="pure-menu-item">
+          <a class="social-icon pure-menu-link" href="mailto://l2nak87@gmail.com">
+            <i class="fas fa-envelope" title="Email"></i>
+          </a>
+        </li><li class="pure-menu-item">
+          <a class="social-icon pure-menu-link" href="https://twitter.com/vigil2222">
+            <i class="fab fa-twitter" title="Twitter"></i>
+          </a>
+        </li><li class="pure-menu-item">
+          <a class="social-icon pure-menu-link" href="https://github.com/vigil2">
+            <i class="fab fa-github" title="GitHub"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+</header>
+</div>
+
+      <div class="content pure-u-1 pure-u-md-1-2"><main>
+  <article class="post">
+  <h1 class="post-title">vscode에서 terminal 과 editor로 focus 변경 단축키</h1>
+  <div class="post-meta"><time datetime="2022-10-19T00:00:00+09:00" itemprop="datePublished">19 Oct 2022</time><span> ~ </span><time datetime="2022-10-19T00:00:00+09:00" itemprop="dateModified">
+        19 Oct 2022
+      </time></div>
+  
+
+  <p><br /></p>
+
+<h2 id="스택오버플로우에서-찾은-방법">스택오버플로우에서 찾은 방법</h2>
+
+<p><br />아래와같이 스택오버플로우에서 찾은 방법에는 터미널이 우선순위라 불편한 점이있었습니다.</p>
+
+<div class="code-header">
+    <button class="copy-code-button">
+        Copy to clipboard
+    </button>
+</div>
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">//</span><span class="w"> </span><span class="err">Toggle</span><span class="w"> </span><span class="err">between</span><span class="w"> </span><span class="err">terminal</span><span class="w"> </span><span class="err">and</span><span class="w"> </span><span class="err">editor</span><span class="w"> </span><span class="err">focus</span><span class="w">
+</span><span class="p">{</span><span class="w">
+    </span><span class="nl">"key"</span><span class="p">:</span><span class="w">     </span><span class="s2">"ctrl+`"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"workbench.action.terminal.focus"</span><span class="w">
+</span><span class="p">}</span><span class="err">,</span><span class="w">
+</span><span class="p">{</span><span class="w">
+    </span><span class="nl">"key"</span><span class="p">:</span><span class="w">     </span><span class="s2">"ctrl+`"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"workbench.action.focusActiveEditorGroup"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"when"</span><span class="p">:</span><span class="w">    </span><span class="s2">"terminalFocus"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+<p><br />예를 들어 탐색기창에 포커스가 있을때 터미널 이동 단축키를 활용하여 에디터 창으로 넘어오려면 터미널을 거쳐와야한다는 것이 비효율적이더라구요.</p>
+
+<p>그래서 터미널창을 이동할 수도 있으면서 에디터창을 1순위로 터미널창을 후순위로 포커스가 이동하도록 만들었습니다.</p>
+
+<p><br /></p>
+
+<h2 id="개선한-방법">개선한 방법</h2>
+
+<ol>
+  <li>
+    <p>⌘ + ⇧ + p 를 눌러 keyboard shortcut에 들어간다</p>
+  </li>
+  <li>
+    <p>아래 그림처럼 바로가기 설정이 나오면 빨간 동그라미를 클릭하여 keybinding.json을 엽니다.(주의할 점은 ⌘ + ⇧ + p에서 바로 keybinding.json으로 이동하면 안됩니다. 그 파일은 읽기모드용 기본 단축키를 모아둔 파일입니다.)<br />
+<br /><img src="/assets/image/2022-10-19-vscode1.png" alt="keybind" /></p>
+  </li>
+  <li>
+    <p>아래와 같이 원하는 단축키로 수정 입력하고 저장하면 됩니다.</p>
+  </li>
+</ol>
+<div class="code-header">
+    <button class="copy-code-button">
+        Copy to clipboard
+    </button>
+</div>
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">//</span><span class="w"> </span><span class="err">키</span><span class="w"> </span><span class="err">바인딩을</span><span class="w"> </span><span class="err">이</span><span class="w"> </span><span class="err">파일에</span><span class="w"> </span><span class="err">넣어서</span><span class="w"> </span><span class="err">기본값</span><span class="w"> </span><span class="err">재정의</span><span class="w">
+</span><span class="p">[</span><span class="w">
+    </span><span class="err">//</span><span class="w"> </span><span class="err">Toggle</span><span class="w"> </span><span class="err">between</span><span class="w"> </span><span class="err">terminal</span><span class="w"> </span><span class="err">and</span><span class="w"> </span><span class="err">editor</span><span class="w"> </span><span class="err">focus</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"key"</span><span class="p">:</span><span class="w">     </span><span class="s2">"cmd+'"</span><span class="p">,</span><span class="w"> </span><span class="err">//</span><span class="w"> </span><span class="err">`</span><span class="w"> </span><span class="err">아니고</span><span class="w"> </span><span class="err">'로</span><span class="w"> </span><span class="err">했습니다.</span><span class="w"> 
+        </span><span class="nl">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"workbench.action.focusActiveEditorGroup"</span><span class="p">,</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"key"</span><span class="p">:</span><span class="w">     </span><span class="s2">"cmd+'"</span><span class="p">,</span><span class="w"> </span><span class="err">//</span><span class="w"> </span><span class="err">`</span><span class="w"> </span><span class="err">아니고</span><span class="w"> </span><span class="err">'로</span><span class="w"> </span><span class="err">했습니다.</span><span class="w">
+        </span><span class="nl">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"workbench.action.terminal.focus"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"when"</span><span class="p">:</span><span class="w"> </span><span class="s2">"editorFocus"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+</span><span class="p">]</span><span class="w">
+</span></code></pre></div></div>
+
+  
+  
+  
+    
+      <div class="post-tags-section">
+  <i class="post-tags-icon fas fa-tags"></i>
+  <ul class="post-tags"><li>
+        <a class="post-tag" href="/tags/#terminal">terminal</a></li><li>
+        <a class="post-tag" href="/tags/#vscode">vscode</a></li></ul>
+</div>
+
+  
+
+  <section class="buymeacoffee">
+<div style="text-align : center;">
+
+
+        <p>이 글이 도움이 되었다면?</p> 
+    <style>.bmc-button img{width: 27px !important;margin-bottom: 1px !important;box-shadow: none !important;border: none !important;vertical-align: middle !important;}.bmc-button{line-height: 36px !important;height:37px !important;text-decoration: none !important;display:inline-flex !important;color:#000000 !important;background-color:#FFDD00 !important;border-radius: 3px !important;border: 1px solid transparent !important;padding: 1px 9px !important;font-size: 22px !important;letter-spacing:0.6px !important;box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;margin: 0 auto !important;font-family:'Cookie', cursive !important;-webkit-box-sizing: border-box !important;box-sizing: border-box !important;-o-transition: 0.3s all linear !important;-webkit-transition: 0.3s all linear !important;-moz-transition: 0.3s all linear !important;-ms-transition: 0.3s all linear !important;transition: 0.3s all linear !important;}.bmc-button:hover, .bmc-button:active, .bmc-button:focus {-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;text-decoration: none !important;box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;opacity: 0.85 !important;color:#000000 !important;}</style >
+
+
+    <a href="https://www.buymeacoffee.com/vigil2" target="_blank">
+        <CENTER><img src="https://cdn.buymeacoffee.com/buttons/v2/arial-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></CENTER>
+    </a>
+</div>
+
+
+
+</section>
+
+
+  
+  
+</article>
+
+
+
+
+
+<aside class="related">
+  <h2>Related posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <a href="/ai_algorism/2022/10/28/AI/">
+          My hypothesis on the ai algorithm
+          <small><time datetime="2022-10-28T00:00:00+09:00">28 Oct 2022</time></small>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/vscode/2022/10/23/vscode/">
+          vscode red box bug
+          <small><time datetime="2022-10-23T00:00:00+09:00">23 Oct 2022</time></small>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/dev_sequence/2022/10/13/dev_sequence/">
+          2022년 개발 일지
+          <small><time datetime="2022-10-13T00:00:00+09:00">13 Oct 2022</time></small>
+        </a>
+      </li>
+    
+  </ul>
+</aside>
+
+
+
+
+<script src="/assets/scripts/copyCode.js"></script>
+
+</main>
+
+<footer class="footer"><small>
+    &copy; 2022 <a href="https://github.com/vigil2/">vigil2</a>. All rights reserved.
+    Powered by <a href="https://jekyllrb.com/">Jekyll</a> & <a href="https://github.com/vszhub/not-pure-poole">Not Pure Poole</a>.
+  </small>
+</footer>
+</div>
+      <div class="sidebar-right pure-u-1 pure-u-md-1-4">
+<div  class="toc-wrapper">
+  <h2 class="toc-title">Table of Contents</h2>
+    <nav class="toc-nav">
+      <ul class="toc">
+  <li><a href="#스택오버플로우에서-찾은-방법">스택오버플로우에서 찾은 방법</a></li>
+  <li><a href="#개선한-방법">개선한 방법</a></li>
+</ul>
+
+  </nav>
+</div>
+
+</div>
+    </div>
+
+    <script async src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script><script>
+  function strip(str, remove) {
+    while (str.length > 0 && remove.indexOf(str.charAt(0)) != -1) {
+      str = str.substr(1);
+    }
+    while (str.length > 0 && remove.indexOf(str.charAt(str.length - 1)) != -1) {
+      str = str.substr(0, str.length - 1);
+    }
+    return str;
+  }
+
+  function scroll() {
+    console.log('scroll');
+    window.scrollTo({
+      left: 0, 
+      top: window.innerHeight,
+      behavior: 'smooth'
+    });
+    sessionStorage.removeItem('forceCheckScroll');
+  }
+
+  const forceCheckScroll = sessionStorage.getItem('forceCheckScroll') === 'true';
+  const checkScroll = strip(window.location.pathname, '/') !== strip('', '/');
+
+  if (forceCheckScroll || checkScroll) {
+    const maxWidth = "(max-width: 48rem)";
+    const result = window.matchMedia(maxWidth);
+    if (result.matches) {
+      scroll();
+    } else {
+      result.addListener((match) => {
+        if (match.media == maxWidth) {
+          if (match.matches) {
+            scroll();
+          }
+        }
+      });
+    }
+  }
+</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5539901990895320"
+     crossorigin="anonymous"></script>
+  </body>
+</html>
+

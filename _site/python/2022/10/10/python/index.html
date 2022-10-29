@@ -28,6 +28,13 @@
 {"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"vigil2","url":"https://github.com/vigil2/"},"dateModified":"2022-10-10T00:00:00+09:00","datePublished":"2022-10-10T00:00:00+09:00","description":"Dev Log","headline":"업비트 오토봇 완성","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/python/2022/10/10/python/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/logo.png"},"name":"vigil2"},"url":"http://localhost:4000/python/2022/10/10/python/"}</script>
 <!-- End Jekyll SEO tag -->
 <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="vigil2" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/logo.ico/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/logo.ico/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/logo.ico/favicon-16x16.png">
+<link rel="manifest" href="/assets/logo.ico/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
 </head>
 
 
@@ -56,6 +63,10 @@
             <i class="fas fa-envelope" title="Email"></i>
           </a>
         </li><li class="pure-menu-item">
+          <a class="social-icon pure-menu-link" href="https://twitter.com/vigil2222">
+            <i class="fab fa-twitter" title="Twitter"></i>
+          </a>
+        </li><li class="pure-menu-item">
           <a class="social-icon pure-menu-link" href="https://github.com/vigil2">
             <i class="fab fa-github" title="GitHub"></i>
           </a>
@@ -71,6 +82,7 @@
   <div class="post-meta"><time datetime="2022-10-10T00:00:00+09:00" itemprop="datePublished">10 Oct 2022</time><span> ~ </span><time datetime="2022-10-10T00:00:00+09:00" itemprop="dateModified">
         10 Oct 2022
       </time></div>
+  
 
   <hr />
 
@@ -78,17 +90,17 @@
 
 <p>매매 알고리즘은 나만 알고싶어 생략을 하였다.</p>
 
+<p>매매기법 궁금하신분은 메일 주세요.</p>
+
 <hr />
 
-<h1 id="목차는-어떻게">목차는 어떻게</h1>
-<h2 id="목차-좀">목차 좀</h2>
-<h3 id="목차">목차</h3>
-<ol>
-  <li>목차</li>
-  <li>목차좀</li>
-</ol>
+<h2 id="업비트-자동매매-파이썬-코드">업비트 자동매매 파이썬 코드</h2>
 
-<h1 id="업비트-자동매매-파이썬-코드">업비트 자동매매 파이썬 코드</h1>
+<div class="code-header">
+    <button class="copy-code-button">
+        Copy to clipboard
+    </button>
+</div>
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">pandas</span>
 <span class="kn">import</span> <span class="nn">pyupbit</span>
 <span class="kn">import</span> <span class="nn">requests</span>
@@ -128,7 +140,7 @@
             <span class="k">print</span><span class="p">(</span><span class="s">"현재시간 : "</span><span class="p">,</span> <span class="n">datetime</span><span class="p">.</span><span class="n">datetime</span><span class="p">.</span><span class="n">now</span><span class="p">())</span>
             <span class="k">print</span><span class="p">(</span><span class="s">"RSI 1day : "</span><span class="p">,</span> <span class="n">now_rsi_1week</span><span class="p">)</span>
             <span class="k">print</span><span class="p">()</span>
- <span class="c1"># 이하의 코드는 삭제했습니다. 나만의 공식. 궁금하신분은 메일 주세요.
+ <span class="c1"># 이하의 코드는 삭제했습니다. 나만의 공식. 
 </span>            <span class="k">if</span>  <span class="p">:</span> 
                 <span class="n">upbit</span><span class="p">.</span><span class="n">buy_market_order</span><span class="p">(</span><span class="n">coinlist</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">money</span> <span class="o">*</span> <span class="mf">1.0</span><span class="p">)</span>
                 
@@ -141,10 +153,11 @@
 <span class="k">except</span><span class="p">:</span>
     <span class="k">print</span><span class="p">()</span>
     <span class="n">time</span><span class="p">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.1</span><span class="p">)</span>
+
 </code></pre></div></div>
 
-
-
+  
+  
   
     
       <div class="post-tags-section">
@@ -157,8 +170,30 @@
 
   
 
+  <section class="buymeacoffee">
+<div style="text-align : center;">
+
+
+        <p>이 글이 도움이 되었다면?</p> 
+    <style>.bmc-button img{width: 27px !important;margin-bottom: 1px !important;box-shadow: none !important;border: none !important;vertical-align: middle !important;}.bmc-button{line-height: 36px !important;height:37px !important;text-decoration: none !important;display:inline-flex !important;color:#000000 !important;background-color:#FFDD00 !important;border-radius: 3px !important;border: 1px solid transparent !important;padding: 1px 9px !important;font-size: 22px !important;letter-spacing:0.6px !important;box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;margin: 0 auto !important;font-family:'Cookie', cursive !important;-webkit-box-sizing: border-box !important;box-sizing: border-box !important;-o-transition: 0.3s all linear !important;-webkit-transition: 0.3s all linear !important;-moz-transition: 0.3s all linear !important;-ms-transition: 0.3s all linear !important;transition: 0.3s all linear !important;}.bmc-button:hover, .bmc-button:active, .bmc-button:focus {-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;text-decoration: none !important;box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;opacity: 0.85 !important;color:#000000 !important;}</style >
+
+
+    <a href="https://www.buymeacoffee.com/vigil2" target="_blank">
+        <CENTER><img src="https://cdn.buymeacoffee.com/buttons/v2/arial-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></CENTER>
+    </a>
+</div>
+
+
+
+</section>
+
+
+  
   
 </article>
+
+
+
 
 
 <aside class="related">
@@ -166,15 +201,33 @@
   <ul class="related-posts">
     
       <li>
-        <a href="/python/2022/10/11/python/">
-          toc test
-          <small><time datetime="2022-10-11T00:00:00+09:00">11 Oct 2022</time></small>
+        <a href="/ai_algorism/2022/10/28/AI/">
+          My hypothesis on the ai algorithm
+          <small><time datetime="2022-10-28T00:00:00+09:00">28 Oct 2022</time></small>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/vscode/2022/10/23/vscode/">
+          vscode red box bug
+          <small><time datetime="2022-10-23T00:00:00+09:00">23 Oct 2022</time></small>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/vscode/2022/10/19/vscode/">
+          vscode에서 terminal 과 editor로 focus 변경 단축키
+          <small><time datetime="2022-10-19T00:00:00+09:00">19 Oct 2022</time></small>
         </a>
       </li>
     
   </ul>
 </aside>
 
+
+
+
+<script src="/assets/scripts/copyCode.js"></script>
 
 </main>
 
@@ -189,11 +242,7 @@
   <h2 class="toc-title">Table of Contents</h2>
     <nav class="toc-nav">
       <ul class="toc">
-  <li><a href="#목차-좀">목차 좀</a>
-    <ul>
-      <li><a href="#목차">목차</a></li>
-    </ul>
-  </li>
+  <li><a href="#업비트-자동매매-파이썬-코드">업비트 자동매매 파이썬 코드</a></li>
 </ul>
 
   </nav>
@@ -242,5 +291,8 @@
     }
   }
 </script>
-</body>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5539901990895320"
+     crossorigin="anonymous"></script>
+  </body>
 </html>
+
