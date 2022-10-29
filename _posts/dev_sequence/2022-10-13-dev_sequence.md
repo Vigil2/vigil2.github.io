@@ -36,6 +36,7 @@ comments: true
   - 아마존 AWS 서버에 올림 
     - 무료 서비스 완성 비용 확인  
 - django 프레임워크 배우기 시작
+- github blog 코드블럭에 카피 넣기
 
 <br/>
 
@@ -49,3 +50,4 @@ comments: true
     - 개인서버 개발 계획
   - 스케줄 근무 쉽게 짜는 달력 제작 프로그램 만들기
 - django 프레임워크 배우기
+- - github blog 코드블럭에 카피 넣기 포스트
