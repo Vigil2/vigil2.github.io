@@ -19,6 +19,7 @@
   position: relative;
   bottom: -24px;
   
+  // transition: transform 0.1s;
 }
 
 .copy-code-button:hover {
@@ -30,7 +31,7 @@
   /* Avoid an ugly focus outline on click in Chrome,
      but darken the button for accessibility.
      See https://stackoverflow.com/a/25298082/1481479 */
-  background-color: rgb(185, 43, 213);
+  background-color: rgb(253, 139, 194);
   outline: 0;
 }
 
