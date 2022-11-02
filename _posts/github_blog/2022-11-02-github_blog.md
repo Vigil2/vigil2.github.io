@@ -2,7 +2,7 @@
 layout: post
 title: 코드박스 복사 버튼 만들기 [깃허브 블로그]
 date: 2022-11-02
-# last_modified_at: 2022-11-02
+last_modified_at: 2022-11-02
 tags: [github.io, github_blog]
 categories: github_blog
 toc: true
@@ -158,4 +158,4 @@ code goes in here!
 ````
 {% endraw %}
 
-## ✨ 여기까지 하면 성공 ✨ 
+## ✨ 여기까지 하면 성공 ✨
