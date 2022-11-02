@@ -5,8 +5,8 @@
     <description>Dev Log</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 02 Nov 2022 13:05:37 +0900</pubDate>
-    <lastBuildDate>Wed, 02 Nov 2022 13:05:37 +0900</lastBuildDate>
+    <pubDate>Wed, 02 Nov 2022 16:46:57 +0900</pubDate>
+    <lastBuildDate>Wed, 02 Nov 2022 16:46:57 +0900</lastBuildDate>
     <generator>Jekyll v3.9.2</generator>
     
       <item>
@@ -14,13 +14,14 @@
         <description>&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;서론&quot;&gt;서론&lt;/h2&gt;
-&lt;p&gt;제가 적용한 방법을 올려봅니다.&lt;/p&gt;
+&lt;p&gt;깃허브 블로그 복사버튼 만들기가 해외 블로그에만 나오길래 이것저것 찾아보고 시도하다가 겨우 만들었네요.&lt;/p&gt;
 
-&lt;p&gt;깃허브 블로그 카피버튼 만들기가 해외 블로그에만 나오길래 이것저것 적용해보다가 겨우 만들었네요.&lt;br /&gt;
-제 블로그의 테마인 Jekyll - Not Pure Poole 기준입니다.
-—&lt;/p&gt;
+&lt;p&gt;제가 적용한 방법을 올려봅니다.&lt;br /&gt;
+제 블로그의 테마인 Jekyll - Not Pure Poole 기준입니다.&lt;/p&gt;
 
-&lt;h2 id=&quot;카피-버튼-만들기&quot;&gt;카피 버튼 만들기&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;복사-버튼-만들기&quot;&gt;복사 버튼 만들기&lt;/h2&gt;
 
 &lt;h3 id=&quot;1-_includescodeheaderhtml-만들어-아래-코드를-입력합니다&quot;&gt;1. _includes/codeHeader.html 만들어 아래 코드를 입력합니다.&lt;/h3&gt;
 &lt;ul&gt;
@@ -109,28 +110,28 @@
     &lt;/button&gt;
 &lt;/div&gt;
 &lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;.copy-code-button&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;c&quot;&gt;/* 카피 버튼 색상  */&lt;/span&gt;
+  &lt;span class=&quot;c&quot;&gt;/* 복사 버튼 색상  */&lt;/span&gt;
   &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#272822&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;c&quot;&gt;/* 카피 버튼 배경 색상 */&lt;/span&gt;
+  &lt;span class=&quot;c&quot;&gt;/* 복사 버튼 배경 색상 */&lt;/span&gt;
   &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;rgb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;212&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;214&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;140&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;c&quot;&gt;/* 카피버튼 경계 색상 */&lt;/span&gt;
+  &lt;span class=&quot;c&quot;&gt;/* 복사버튼 경계 색상 */&lt;/span&gt;
   &lt;span class=&quot;nl&quot;&gt;border-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#272822&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
   &lt;span class=&quot;nl&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;2px&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;solid&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
   &lt;span class=&quot;nl&quot;&gt;border-radius&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;3px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;3px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 
-  &lt;span class=&quot;c&quot;&gt;/* 아래 세 줄은 카피 버튼 오른쪽 정렬 */&lt;/span&gt;
+  &lt;span class=&quot;c&quot;&gt;/* 아래 세 줄은 복사 버튼 오른쪽 정렬 */&lt;/span&gt;
   &lt;span class=&quot;nl&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;block&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
   &lt;span class=&quot;nl&quot;&gt;margin-left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;auto&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
   &lt;span class=&quot;nl&quot;&gt;margin-right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 
-  &lt;span class=&quot;c&quot;&gt;/* 바로 위 글씨와 카피 버튼 사이의 간격 */&lt;/span&gt;
+  &lt;span class=&quot;c&quot;&gt;/* 바로 위 글씨와 복사 버튼 사이의 간격 */&lt;/span&gt;
   &lt;span class=&quot;nl&quot;&gt;margin-top&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-30px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
   &lt;span class=&quot;nl&quot;&gt;margin-bottom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-2px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
   &lt;span class=&quot;nl&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;3px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;8px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
   &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0.8em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
   
   &lt;span class=&quot;nl&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;relative&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;c&quot;&gt;/* 아래 값을 적절히 변경하면 위 아래로 카피버튼 이동 */&lt;/span&gt;
+  &lt;span class=&quot;c&quot;&gt;/* 아래 값을 적절히 변경하면 위 아래로 복사버튼 이동 */&lt;/span&gt;
   &lt;span class=&quot;nl&quot;&gt;bottom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-24px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 

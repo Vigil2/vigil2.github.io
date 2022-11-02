@@ -1,23 +1,27 @@
 
 .copy-code-button {
   color: #272822;
-  background-color: rgb(212, 214, 140);
-  border-color: #272822;
+  background-color: rgb(232, 235, 127);
   border: 2px solid;
-  border-radius: 3px 3px 0px 0px;
+  border-color: #efd975;
+  border-radius: 3px 3px 3px 3px;
+  opacity: 0.7;
+
+  outline-color: #e5e548;
+
 
   /* right-align */
   display: block;
   margin-left: auto;
   margin-right: 0;
 
-  margin-top: -30px;
+  margin-top: -21px;
   margin-bottom: -2px;
-  padding: 3px 8px;
-  font-size: 0.8em;
+  padding: 1px 3px;
+  font-size: 0.7em;
 
   position: relative;
-  bottom: -24px;
+  bottom: -19px;
   
   // transition: transform 0.1s;
 }
@@ -25,6 +29,7 @@
 .copy-code-button:hover {
   cursor: pointer;
   background-color: #e5e548;
+  opacity: 1;
 }
 
 .copy-code-button:focus {
@@ -33,10 +38,12 @@
      See https://stackoverflow.com/a/25298082/1481479 */
   background-color: rgb(253, 139, 194);
   outline: 0;
+  opacity: 1;
 }
 
 .copy-code-button:active {
   background-color: rgb(212, 214, 140);
+  opacity: 1;
 }
 
 .highlight pre {

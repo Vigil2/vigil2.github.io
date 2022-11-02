@@ -112,13 +112,14 @@ enable_page_level_ads: true
   <p><br /></p>
 
 <h2 id="서론">서론</h2>
-<p>제가 적용한 방법을 올려봅니다.</p>
+<p>깃허브 블로그 복사버튼 만들기가 해외 블로그에만 나오길래 이것저것 찾아보고 시도하다가 겨우 만들었네요.</p>
 
-<p>깃허브 블로그 카피버튼 만들기가 해외 블로그에만 나오길래 이것저것 적용해보다가 겨우 만들었네요.<br />
-제 블로그의 테마인 Jekyll - Not Pure Poole 기준입니다.
-—</p>
+<p>제가 적용한 방법을 올려봅니다.<br />
+제 블로그의 테마인 Jekyll - Not Pure Poole 기준입니다.</p>
 
-<h2 id="카피-버튼-만들기">카피 버튼 만들기</h2>
+<hr />
+
+<h2 id="복사-버튼-만들기">복사 버튼 만들기</h2>
 
 <h3 id="1-_includescodeheaderhtml-만들어-아래-코드를-입력합니다">1. _includes/codeHeader.html 만들어 아래 코드를 입력합니다.</h3>
 <ul>
@@ -207,28 +208,28 @@ enable_page_level_ads: true
     </button>
 </div>
 <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.copy-code-button</span> <span class="p">{</span>
-  <span class="c">/* 카피 버튼 색상  */</span>
+  <span class="c">/* 복사 버튼 색상  */</span>
   <span class="nl">color</span><span class="p">:</span> <span class="m">#272822</span><span class="p">;</span>
-  <span class="c">/* 카피 버튼 배경 색상 */</span>
+  <span class="c">/* 복사 버튼 배경 색상 */</span>
   <span class="nl">background-color</span><span class="p">:</span> <span class="nb">rgb</span><span class="p">(</span><span class="m">212</span><span class="p">,</span> <span class="m">214</span><span class="p">,</span> <span class="m">140</span><span class="p">);</span>
-  <span class="c">/* 카피버튼 경계 색상 */</span>
+  <span class="c">/* 복사버튼 경계 색상 */</span>
   <span class="nl">border-color</span><span class="p">:</span> <span class="m">#272822</span><span class="p">;</span>
   <span class="nl">border</span><span class="p">:</span> <span class="m">2px</span> <span class="nb">solid</span><span class="p">;</span>
   <span class="nl">border-radius</span><span class="p">:</span> <span class="m">3px</span> <span class="m">3px</span> <span class="m">0px</span> <span class="m">0px</span><span class="p">;</span>
 
-  <span class="c">/* 아래 세 줄은 카피 버튼 오른쪽 정렬 */</span>
+  <span class="c">/* 아래 세 줄은 복사 버튼 오른쪽 정렬 */</span>
   <span class="nl">display</span><span class="p">:</span> <span class="nb">block</span><span class="p">;</span>
   <span class="nl">margin-left</span><span class="p">:</span> <span class="nb">auto</span><span class="p">;</span>
   <span class="nl">margin-right</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
 
-  <span class="c">/* 바로 위 글씨와 카피 버튼 사이의 간격 */</span>
+  <span class="c">/* 바로 위 글씨와 복사 버튼 사이의 간격 */</span>
   <span class="nl">margin-top</span><span class="p">:</span> <span class="m">-30px</span><span class="p">;</span>
   <span class="nl">margin-bottom</span><span class="p">:</span> <span class="m">-2px</span><span class="p">;</span>
   <span class="nl">padding</span><span class="p">:</span> <span class="m">3px</span> <span class="m">8px</span><span class="p">;</span>
   <span class="nl">font-size</span><span class="p">:</span> <span class="m">0.8em</span><span class="p">;</span>
   
   <span class="nl">position</span><span class="p">:</span> <span class="nb">relative</span><span class="p">;</span>
-  <span class="c">/* 아래 값을 적절히 변경하면 위 아래로 카피버튼 이동 */</span>
+  <span class="c">/* 아래 값을 적절히 변경하면 위 아래로 복사버튼 이동 */</span>
   <span class="nl">bottom</span><span class="p">:</span> <span class="m">-24px</span><span class="p">;</span>
 <span class="p">}</span>
 
@@ -364,7 +365,7 @@ enable_page_level_ads: true
     <nav class="toc-nav">
       <ul class="toc">
   <li><a href="#서론">서론</a></li>
-  <li><a href="#카피-버튼-만들기">카피 버튼 만들기</a>
+  <li><a href="#복사-버튼-만들기">복사 버튼 만들기</a>
     <ul>
       <li><a href="#1-_includescodeheaderhtml-만들어-아래-코드를-입력합니다">1. _includes/codeHeader.html 만들어 아래 코드를 입력합니다.</a></li>
       <li><a href="#2-assetsscriptscopycodejs-만들어-아래-코드를-입력합니다">2. assets/scripts/copycode.js 만들어 아래 코드를 입력합니다.</a></li>
