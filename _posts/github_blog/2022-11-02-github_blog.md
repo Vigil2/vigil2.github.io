@@ -2,7 +2,7 @@
 layout: post
 title: 코드박스 복사 버튼 만들기 [깃허브 블로그]
 date: 2022-11-02
-last_modified_at: 2022-11-02
+# last_modified_at: 2022-11-02
 tags: [github.io, github_blog]
 categories: github_blog
 toc: true
@@ -13,12 +13,10 @@ comments: true
 <br/>
 
 ## 서론
+제가 적용한 방법을 올려봅니다.  
 
 깃허브 블로그 카피버튼 만들기가 해외 블로그에만 나오길래 이것저것 적용해보다가 겨우 만들었네요.  
-제가 적용한 방법을 올려봅니다.  
-코드블럭 복사버튼 만드시는 분들에게 조금이나마 도움이 되었으면 좋겠습니다.  
 제 블로그의 테마인 Jekyll - Not Pure Poole 기준입니다.
-
 ---
 
 ## 카피 버튼 만들기

@@ -2,7 +2,7 @@
 layout: post
 title: 2022년 개발 일지
 date: 2022-10-13
-last_modified_at: 2022-10-13
+# last_modified_at: 2022-10-13
 tags: [dev_sequence]
 categories: dev_sequence
 toc: true

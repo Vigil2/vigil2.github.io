@@ -5,18 +5,20 @@
     <description>Dev Log</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 02 Nov 2022 12:51:02 +0900</pubDate>
-    <lastBuildDate>Wed, 02 Nov 2022 12:51:02 +0900</lastBuildDate>
+    <pubDate>Wed, 02 Nov 2022 13:05:37 +0900</pubDate>
+    <lastBuildDate>Wed, 02 Nov 2022 13:05:37 +0900</lastBuildDate>
     <generator>Jekyll v3.9.2</generator>
     
       <item>
-        <title>코드박스 안에 복사 버튼 만들기 [깃허브 블로그]</title>
+        <title>코드박스 복사 버튼 만들기 [깃허브 블로그]</title>
         <description>&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;깃허브 블로그 카피버튼 만들기가 해외 블로그에만 나오길래 이것저것 적용해보다가 겨우 만들었네요.
-제 블로그의 테마인 Jekyll - Not Pure Poole 기준입니다.&lt;/p&gt;
+&lt;h2 id=&quot;서론&quot;&gt;서론&lt;/h2&gt;
+&lt;p&gt;제가 적용한 방법을 올려봅니다.&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;깃허브 블로그 카피버튼 만들기가 해외 블로그에만 나오길래 이것저것 적용해보다가 겨우 만들었네요.&lt;br /&gt;
+제 블로그의 테마인 Jekyll - Not Pure Poole 기준입니다.
+—&lt;/p&gt;
 
 &lt;h2 id=&quot;카피-버튼-만들기&quot;&gt;카피 버튼 만들기&lt;/h2&gt;
 
@@ -91,13 +93,13 @@
 &lt;span class=&quot;p&quot;&gt;```&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;카피버튼이 코드블럭 왼쪽 위에 붙어있는 것을 확인 가능합니다.&lt;/p&gt;
+&lt;p&gt;복사 버튼이 코드블럭 왼쪽 위에 붙어있는 것을 확인 가능합니다.&lt;/p&gt;
 
-&lt;p&gt;이것을 꾸미려면 아래 단계를 진행하면 됩니다.&lt;/p&gt;
+&lt;p&gt;복사버튼을 코드박스 안으로 넣기, 꾸미기는 아래 단계를 진행하면 됩니다.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;카피버튼-꾸미기-및-위치-이동&quot;&gt;카피버튼 꾸미기 및 위치 이동&lt;/h2&gt;
+&lt;h2 id=&quot;복사버튼-꾸미기-및-코드박스-안으로-위치-이동&quot;&gt;복사버튼 꾸미기 및 코드박스 안으로 위치 이동&lt;/h2&gt;
 
 &lt;h3 id=&quot;1-_sasscodeheaderscss를-만들고-복사해-넣으면-됩니다&quot;&gt;1. _sass/codeHeader.scss를 만들고 복사해 넣으면 됩니다.&lt;/h3&gt;
 
@@ -175,10 +177,12 @@
 &lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;code goes in here!&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;```&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;-여기까지-하면-성공--각자-스타일에-맞추어-css파일을-조금씩-변경하시면-됩니다&quot;&gt;✨ 여기까지 하면 성공 ✨ 각자 스타일에 맞추어 css파일을 조금씩 변경하시면 됩니다.&lt;/h2&gt;
 </description>
         <pubDate>Wed, 02 Nov 2022 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/github_blog/2022/11/02/vscode/</link>
-        <guid isPermaLink="true">http://localhost:4000/github_blog/2022/11/02/vscode/</guid>
+        <link>http://localhost:4000/github_blog/2022/11/02/github_blog/</link>
+        <guid isPermaLink="true">http://localhost:4000/github_blog/2022/11/02/github_blog/</guid>
         
         <category>github.io</category>
         

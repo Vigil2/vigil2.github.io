@@ -7,24 +7,24 @@
   <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
   <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/grids-responsive-min.css">
   <link rel="stylesheet" href="/assets/styles.css"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>코드박스 안에 복사 버튼 만들기 [깃허브 블로그] | vigil2</title>
+<title>코드박스 복사 버튼 만들기 [깃허브 블로그] | vigil2</title>
 <meta name="generator" content="Jekyll v3.9.2" />
-<meta property="og:title" content="코드박스 안에 복사 버튼 만들기 [깃허브 블로그]" />
+<meta property="og:title" content="코드박스 복사 버튼 만들기 [깃허브 블로그]" />
 <meta name="author" content="vigil2" />
 <meta property="og:locale" content="ko" />
 <meta name="description" content="Dev Log" />
 <meta property="og:description" content="Dev Log" />
-<link rel="canonical" href="http://localhost:4000/github_blog/2022/11/02/vscode/" />
-<meta property="og:url" content="http://localhost:4000/github_blog/2022/11/02/vscode/" />
+<link rel="canonical" href="http://localhost:4000/github_blog/2022/11/02/github_blog/" />
+<meta property="og:url" content="http://localhost:4000/github_blog/2022/11/02/github_blog/" />
 <meta property="og:site_name" content="vigil2" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2022-11-02T00:00:00+09:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="코드박스 안에 복사 버튼 만들기 [깃허브 블로그]" />
+<meta property="twitter:title" content="코드박스 복사 버튼 만들기 [깃허브 블로그]" />
 <meta name="twitter:site" content="@vigil2" />
 <meta name="twitter:creator" content="@vigil2" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"vigil2","url":"https://github.com/vigil2/"},"dateModified":"2022-11-02T00:00:00+09:00","datePublished":"2022-11-02T00:00:00+09:00","description":"Dev Log","headline":"코드박스 안에 복사 버튼 만들기 [깃허브 블로그]","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/github_blog/2022/11/02/vscode/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/logo.png"},"name":"vigil2"},"url":"http://localhost:4000/github_blog/2022/11/02/vscode/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"vigil2","url":"https://github.com/vigil2/"},"dateModified":"2022-11-02T00:00:00+09:00","datePublished":"2022-11-02T00:00:00+09:00","description":"Dev Log","headline":"코드박스 복사 버튼 만들기 [깃허브 블로그]","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/github_blog/2022/11/02/github_blog/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/logo.png"},"name":"vigil2"},"url":"http://localhost:4000/github_blog/2022/11/02/github_blog/"}</script>
 <!-- End Jekyll SEO tag -->
 <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="vigil2" /><!-- for adsense approval -->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5539901990895320"
@@ -105,18 +105,18 @@ enable_page_level_ads: true
 
       <div class="content pure-u-1 pure-u-md-1-2"><main>
   <article class="post">
-  <h1 class="post-title">코드박스 안에 복사 버튼 만들기 [깃허브 블로그]</h1>
-  <div class="post-meta"><time datetime="2022-11-02T00:00:00+09:00" itemprop="datePublished">2 Nov 2022</time><span> ~ </span><time datetime="2022-11-02T00:00:00+09:00" itemprop="dateModified">
-        2 Nov 2022
-      </time></div>
+  <h1 class="post-title">코드박스 복사 버튼 만들기 [깃허브 블로그]</h1>
+  <div class="post-meta"><time datetime="2022-11-02T00:00:00+09:00" itemprop="datePublished">2 Nov 2022</time></div>
   
 
   <p><br /></p>
 
-<p>깃허브 블로그 카피버튼 만들기가 해외 블로그에만 나오길래 이것저것 적용해보다가 겨우 만들었네요.
-제 블로그의 테마인 Jekyll - Not Pure Poole 기준입니다.</p>
+<h2 id="서론">서론</h2>
+<p>제가 적용한 방법을 올려봅니다.</p>
 
-<hr />
+<p>깃허브 블로그 카피버튼 만들기가 해외 블로그에만 나오길래 이것저것 적용해보다가 겨우 만들었네요.<br />
+제 블로그의 테마인 Jekyll - Not Pure Poole 기준입니다.
+—</p>
 
 <h2 id="카피-버튼-만들기">카피 버튼 만들기</h2>
 
@@ -191,13 +191,13 @@ enable_page_level_ads: true
 <span class="p">```</span>
 </code></pre></div></div>
 
-<p>카피버튼이 코드블럭 왼쪽 위에 붙어있는 것을 확인 가능합니다.</p>
+<p>복사 버튼이 코드블럭 왼쪽 위에 붙어있는 것을 확인 가능합니다.</p>
 
-<p>이것을 꾸미려면 아래 단계를 진행하면 됩니다.</p>
+<p>복사버튼을 코드박스 안으로 넣기, 꾸미기는 아래 단계를 진행하면 됩니다.</p>
 
 <hr />
 
-<h2 id="카피버튼-꾸미기-및-위치-이동">카피버튼 꾸미기 및 위치 이동</h2>
+<h2 id="복사버튼-꾸미기-및-코드박스-안으로-위치-이동">복사버튼 꾸미기 및 코드박스 안으로 위치 이동</h2>
 
 <h3 id="1-_sasscodeheaderscss를-만들고-복사해-넣으면-됩니다">1. _sass/codeHeader.scss를 만들고 복사해 넣으면 됩니다.</h3>
 
@@ -275,6 +275,8 @@ enable_page_level_ads: true
 </span><span class="sb">code goes in here!</span>
 <span class="p">```</span>
 </code></pre></div></div>
+
+<h2 id="-여기까지-하면-성공--각자-스타일에-맞추어-css파일을-조금씩-변경하시면-됩니다">✨ 여기까지 하면 성공 ✨ 각자 스타일에 맞추어 css파일을 조금씩 변경하시면 됩니다.</h2>
 
   
   
@@ -361,6 +363,7 @@ enable_page_level_ads: true
   <h2 class="toc-title">Table of Contents</h2>
     <nav class="toc-nav">
       <ul class="toc">
+  <li><a href="#서론">서론</a></li>
   <li><a href="#카피-버튼-만들기">카피 버튼 만들기</a>
     <ul>
       <li><a href="#1-_includescodeheaderhtml-만들어-아래-코드를-입력합니다">1. _includes/codeHeader.html 만들어 아래 코드를 입력합니다.</a></li>
@@ -369,13 +372,14 @@ enable_page_level_ads: true
       <li><a href="#4-codeblock-작성-시---include-codeheaderhtml---을-포함하여-아래와-같이-작성하면-됩니다">4. codeblock 작성 시  {% include codeHeader.html %}  을 포함하여 아래와 같이 작성하면 됩니다.</a></li>
     </ul>
   </li>
-  <li><a href="#카피버튼-꾸미기-및-위치-이동">카피버튼 꾸미기 및 위치 이동</a>
+  <li><a href="#복사버튼-꾸미기-및-코드박스-안으로-위치-이동">복사버튼 꾸미기 및 코드박스 안으로 위치 이동</a>
     <ul>
       <li><a href="#1-_sasscodeheaderscss를-만들고-복사해-넣으면-됩니다">1. _sass/codeHeader.scss를 만들고 복사해 넣으면 됩니다.</a></li>
       <li><a href="#2-assetsstylescss-에-붙여넣기">2. assets/style.scss 에 붙여넣기</a></li>
       <li><a href="#3-다시-코드블럭위에---include-codeheaderhtml--을-포함하여-작성해보기">3. 다시 코드블럭위에  {% include codeHeader.html %} 을 포함하여 작성해보기</a></li>
     </ul>
   </li>
+  <li><a href="#-여기까지-하면-성공--각자-스타일에-맞추어-css파일을-조금씩-변경하시면-됩니다">✨ 여기까지 하면 성공 ✨ 각자 스타일에 맞추어 css파일을 조금씩 변경하시면 됩니다.</a></li>
 </ul>
 
   </nav>
