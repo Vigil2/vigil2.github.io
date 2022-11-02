@@ -15,11 +15,11 @@ comments: true
 ## 서론
 제가 적용한 방법을 올려봅니다.  
 
-깃허브 블로그 카피버튼 만들기가 해외 블로그에만 나오길래 이것저것 적용해보다가 겨우 만들었네요.  
+깃허브 블로그 복사버튼 만들기가 해외 블로그에만 나오길래 이것저것 적용해보다가 겨우 만들었네요.  
 제 블로그의 테마인 Jekyll - Not Pure Poole 기준입니다.
 ---
 
-## 카피 버튼 만들기
+## 복사 버튼 만들기
 
 ### 1. _includes/codeHeader.html 만들어 아래 코드를 입력합니다.
 - 버튼을 만들고 클래스 이름을 지어줍니다.
@@ -92,28 +92,28 @@ code goes in here!
 {% include codeHeader.html %}
 ```css
 .copy-code-button {
-  /* 카피 버튼 색상  */
+  /* 복사 버튼 색상  */
   color: #272822;
-  /* 카피 버튼 배경 색상 */
+  /* 복사 버튼 배경 색상 */
   background-color: rgb(212, 214, 140);
-  /* 카피버튼 경계 색상 */
+  /* 복사버튼 경계 색상 */
   border-color: #272822;
   border: 2px solid;
   border-radius: 3px 3px 0px 0px;
 
-  /* 아래 세 줄은 카피 버튼 오른쪽 정렬 */
+  /* 아래 세 줄은 복사 버튼 오른쪽 정렬 */
   display: block;
   margin-left: auto;
   margin-right: 0;
 
-  /* 바로 위 글씨와 카피 버튼 사이의 간격 */
+  /* 바로 위 글씨와 복사 버튼 사이의 간격 */
   margin-top: -30px;
   margin-bottom: -2px;
   padding: 3px 8px;
   font-size: 0.8em;
   
   position: relative;
-  /* 아래 값을 적절히 변경하면 위 아래로 카피버튼 이동 */
+  /* 아래 값을 적절히 변경하면 위 아래로 복사버튼 이동 */
   bottom: -24px;
 }
 
