@@ -92,6 +92,7 @@ code goes in here!
 
 {% include codeHeader.html %}
 ```css
+/* 본인 블로그 스타일에 맞춰 수정하여 사용하세요. */
 .copy-code-button {
   /* 복사 버튼 색상  */
   color: #272822;
@@ -157,4 +158,4 @@ code goes in here!
 ````
 {% endraw %}
 
-## ✨ 여기까지 하면 성공 ✨ 각자 스타일에 맞추어 css파일을 조금씩 변경하시면 됩니다.
+## ✨ 여기까지 하면 성공 ✨ 
