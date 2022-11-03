@@ -50,7 +50,7 @@ Then all rational and irrational behaviors of human beings can be explained.
   - Type 1) "I need some care for my child"
     - They care about their children (acting out of the hope that their children will grow up well) -> Parents themselves are satisfied.
 
-  -Type 2) "I don't care about the child. The child will grow up alone." (It's just a difference from Type 1.
+  - Type 2) "I don't care about the child. The child will grow up alone." (It's just a difference from Type 1.
     - They don't care about their children. (As expected, they act out of the hope that their children will grow up well) -> Parents themselves are satisfied.
 
 <br>
