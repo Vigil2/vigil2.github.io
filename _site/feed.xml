@@ -5,8 +5,8 @@
     <description>Dev Log</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 02 Nov 2022 16:46:57 +0900</pubDate>
-    <lastBuildDate>Wed, 02 Nov 2022 16:46:57 +0900</lastBuildDate>
+    <pubDate>Sun, 06 Nov 2022 16:09:38 +0900</pubDate>
+    <lastBuildDate>Sun, 06 Nov 2022 16:09:38 +0900</lastBuildDate>
     <generator>Jekyll v3.9.2</generator>
     
       <item>
@@ -109,7 +109,8 @@
         Copy
     &lt;/button&gt;
 &lt;/div&gt;
-&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;.copy-code-button&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;/* 본인 블로그 스타일에 맞춰 수정하여 사용하세요. */&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.copy-code-button&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;c&quot;&gt;/* 복사 버튼 색상  */&lt;/span&gt;
   &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#272822&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
   &lt;span class=&quot;c&quot;&gt;/* 복사 버튼 배경 색상 */&lt;/span&gt;
@@ -179,7 +180,7 @@
 &lt;span class=&quot;p&quot;&gt;```&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h2 id=&quot;-여기까지-하면-성공--각자-스타일에-맞추어-css파일을-조금씩-변경하시면-됩니다&quot;&gt;✨ 여기까지 하면 성공 ✨ 각자 스타일에 맞추어 css파일을 조금씩 변경하시면 됩니다.&lt;/h2&gt;
+&lt;h2 id=&quot;-여기까지-하면-성공-&quot;&gt;✨ 여기까지 하면 성공 ✨&lt;/h2&gt;
 </description>
         <pubDate>Wed, 02 Nov 2022 00:00:00 +0900</pubDate>
         <link>http://localhost:4000/github_blog/2022/11/02/github_blog/</link>
@@ -234,11 +235,11 @@ Then all rational and irrational behaviors of human beings can be explained.&lt;
           &lt;li&gt;They care about their children (acting out of the hope that their children will grow up well) -&amp;gt; Parents themselves are satisfied.&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;p&gt;-Type 2) “I don’t care about the child. The child will grow up alone.” (It’s just a difference from Type 1.&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;They don’t care about their children. (As expected, they act out of the hope that their children will grow up well) -&amp;gt; Parents themselves are satisfied.&lt;/li&gt;
+      &lt;li&gt;Type 2) “I don’t care about the child. The child will grow up alone.” (It’s just a difference from Type 1.
+        &lt;ul&gt;
+          &lt;li&gt;They don’t care about their children. (As expected, they act out of the hope that their children will grow up well) -&amp;gt; Parents themselves are satisfied.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
