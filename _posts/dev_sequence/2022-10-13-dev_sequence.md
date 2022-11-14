@@ -31,13 +31,15 @@ comments: true
 ### 10월 개발 정리
 - github blog
   - 기본 틀 완성
+  - 코드블럭에 카피 버튼 넣기
+- html 문법
+- css 문법
 - 알고리즘 기초
 - 개인서버 개발 계획
-- upbit 자동매매 첫 시작
+- upbit 자동매매 완성, 시작
   - AWS 이용(무료서비스)
   - filezilla
 - django 프레임워크 배우기 시작
-- github blog 코드블럭에 카피 넣기
 
 <br>
 
@@ -62,8 +64,7 @@ comments: true
     - 무한서치 줄이고 crontab 간격 늘림
     - AWS 필요없는 활성목록 삭제
 
-- html 배우기
-- css 배우기
+
 - solid 배우기
 - django 프레임워크 배우기
 - pixelmator Pro 구매
