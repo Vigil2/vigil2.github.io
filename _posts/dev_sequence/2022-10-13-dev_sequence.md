@@ -17,14 +17,15 @@ comments: true
 <br>
 
 ### 9월 개발 정리
-- 개발환경 설정
-  - zsh, terminal, vscode 등
+- 개발환경 구성
+  - zsh, terminal, vscode, homobrew 등
 - git, github 사용법 익히기
 - python 기초 문법
 - c 기초 문법
 - github blog 시도
 - 업비트 자동매매 개발 시작
 - Markdown 문법
+- unity 맛보기
 
 <br>
 
@@ -34,6 +35,7 @@ comments: true
   - 코드블럭에 카피 버튼 넣기
 - html 문법
 - css 문법
+- vim 사용법
 - 알고리즘 기초
 - 개인서버 개발 계획
 - upbit 자동매매 완성, 시작
@@ -46,10 +48,11 @@ comments: true
 ### 11월 개발 계획
 - github blog
   - 코드블럭에 카피 넣기 포스트
-  - google search - sitemap.xml 읽어오기
-  - adsense 추가
-  - google analystic 설정
-  - buy me a coffee, toss 넣기
+  - google search
+    - sitemap.xml 읽어오기가 잘 안되는 것 같습니다.
+  - adsense 등록 시도
+  - google analystic 등록
+  - buy me a coffee, toss 기능 넣기
 
 - 파이썬 가상환경 만들기
   - conda, venv
@@ -73,9 +76,15 @@ comments: true
 - 스케줄 근무 쉽게 짜는 달력 제작 프로그램 만들기
 
 - 프로젝트 뭐할지 생각해보기
-
+  - api 활용을 해볼까?
 <br>
 
 ### 12월 개발 계획
 - 백엔드 개발
+- java
+- spring
+- oracle
+- sql
+- docker
+- react
 - solid 배우기
