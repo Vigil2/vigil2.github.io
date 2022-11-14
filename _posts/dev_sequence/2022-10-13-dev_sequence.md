@@ -31,7 +31,7 @@ comments: true
 
 ### 10월 개발 정리
 - github blog
-  - 기본 틀 완성
+  - 기본 틀 완성 - jekyll 사용, not pure
   - 코드블럭에 카피 버튼 넣기
 - html 문법
 - css 문법
