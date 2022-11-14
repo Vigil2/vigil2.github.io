@@ -18,23 +18,24 @@ comments: true
 
 ### 9월 개발 정리
 - 개발환경 설정
-  - zsh, iterm, vscode
+  - zsh, terminal, vscode 등
 - git, github 사용법 익히기
 - python 기초 문법
 - c 기초 문법
 - github blog 시도
 - 업비트 자동매매 개발 시작
+- Markdown 문법
 
 <br>
 
 ### 10월 개발 정리
 - github blog
   - 기본 틀 완성
-- 알고리즘 기초 시작
+- 알고리즘 기초
 - 개인서버 개발 계획
 - upbit 자동매매 첫 시작
-  - 아마존 AWS 서버에 올림 
-    - 무료 서비스 완성 비용 확인  
+  - AWS 이용(무료서비스)
+  - filezilla
 - django 프레임워크 배우기 시작
 - github blog 코드블럭에 카피 넣기
 
@@ -65,6 +66,7 @@ comments: true
 - css 배우기
 - solid 배우기
 - django 프레임워크 배우기
+- pixelmator Pro 구매
 
 - 개인서버 개발 계획
 - 스케줄 근무 쉽게 짜는 달력 제작 프로그램 만들기
