@@ -38,24 +38,28 @@ comments: true
 - vim 사용법
 - 알고리즘 기초
 - 개인서버 개발 계획
-- upbit 자동매매 완성, 시작
-  - AWS 이용(무료서비스)
-  - filezilla
+- Project
+  - upbit 자동매매 시작, v1.0완성
+    - AWS 이용(무료서비스)
+    - filezilla
 - django 프레임워크 배우기 시작
 
 <br>
 
 ### 11월 개발 계획
 - github blog
-  - 코드블럭에 카피 넣기 포스트
+  - 코드블럭에 카피 넣기 
   - google search
     - sitemap.xml 읽어오기가 잘 안되는 것 같습니다.
   - adsense 등록 시도
   - google analystic 등록
   - buy me a coffee, toss 기능 넣기
 
-- 파이썬 가상환경 만들기
-  - conda, venv
+- 파이썬
+  - 가상환경 만들기
+    - conda, venv
+  - GUI 만들기 (project때문에)
+    - pyQt, tkinter
 
 - upbit 자동매매
   - 디테일하게 수정 필요
@@ -68,11 +72,17 @@ comments: true
     - AWS 필요없는 활성목록 삭제
 
 
-- solid 배우기
-- django 프레임워크 배우기
+- solid 기초
+- django 프레임워크 기초
+- mySQL 기초
 - pixelmator Pro 구매
+- docker 기초
+- git 심화 
+- Nodejs 기초
+
 
 - 개인서버 개발 계획
+- Project
 - 스케줄 근무 쉽게 짜는 달력 제작 프로그램 만들기
 
 - 프로젝트 뭐할지 생각해보기
