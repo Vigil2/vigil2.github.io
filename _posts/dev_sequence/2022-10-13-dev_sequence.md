@@ -18,6 +18,7 @@ comments: true
 
 ### 9월 개발 정리
 - 개발환경 구성
+  - Java 이클립스, SDKMAN, JDK등 설치 시도
   - zsh, terminal, vscode, homobrew 등
 - git, github 사용법 익히기
 - python 기초 문법
@@ -72,6 +73,7 @@ comments: true
     - AWS 필요없는 활성목록 삭제
 
 
+- java 기초 
 - solid 기초
 - django 프레임워크 기초
 - mySQL 기초
@@ -79,6 +81,9 @@ comments: true
 - docker 기초
 - git 심화 
 - Nodejs 기초
+- vim
+  - vimrc 설정
+  - vscode vim extension 사용
 
 
 - 개인서버 개발 계획
